@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web main</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fff;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 100px);
+            grid-template-rows: repeat(2, 100px);
+            grid-gap: 20px;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .box:hover {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Computer_Engineering_Helper</h1>
+    <div class="container">
+        <div class="box" onclick="location.href='https://www.example.com/page1';">About Us</div>
+        <div class="box" onclick="location.href='https://www.example.com/page2';">News</div>
+        <div class="box" onclick="location.href='https://www.example.com/page3';">Helpful Sites</div>
+        <div class="box" onclick="location.href='https://www.example.com/page4';">Quiz</div>
+    </div>
+</body>
+</html>
