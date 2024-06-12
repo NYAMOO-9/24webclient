@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정보 나열 템플릿</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .back-button {
+            display: block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: white;
+            background-color: grey;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .info-list {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .info-item {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .info-item:last-child {
+            border-bottom: none;
+        }
+        .info-item h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .info-item p {
+            margin: 5px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://nyamoo-9.github.io/24webclient/main.html" class="back-button">홈으로 돌아가기</a>
+        <div class="info-list">
+            <div class="info-item">
+                <h3>1. 백준</h3>
+                <p>
+                    <a href="https://www.acmicpc.net/">백준</a>
+                    다양한 기출 문제와 코딩 테스트가 있으며 각종 프로그래밍 대회 관련 정보를 엿볼수 있다. <br>
+                    또한 모르거나 어려운 문제와 같은 경우는 게시판에 질문을 하면 대부분 친절하게 해답을 알려주는 경우가 많아 천천히 문제 풀어가기 좋은 사이트이다.
+                </p>
+            </div>
+            <div class="info-item">
+                <h3>2. Programmers</h3>
+                <p>
+                    <a href="https://programmers.co.kr/">Programmers</a>
+                    백준과 비슷한 사이트이지만 코딩 초보자에게 더 친절한 UI와 무료 강의가 많아 코딩을 배워나가기 쉬운 사이트이다. <br>
+                    또한 다양한 채용 정보도 얻을 수 있어 숙련자가 된 이후에도 종종 들리는 사람이 많은 사이트이다.
+                </p>
+            </div>
+            <div class="info-item">
+                <h3>3. solved.ac</h3>
+                <p>
+                    <a href="https://solved.ac/">solved.ac</a>
+                    문제만 집중적으로 모여있는 사이트로 가이드라인이 존재하며 레벨별로 다른 난이도의 코딩 문제를 풀어볼 수 있다.<br>
+                    보기 좋은 UI가 특징이며, 간단하게 코딩 문제만 풀고 싶은 사람들이 사용하기 좋은 사이트이다.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
